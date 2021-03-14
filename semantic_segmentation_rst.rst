@@ -11,6 +11,8 @@ Semantic segmentation using Poutyne
     - See the notebook `here <https://github.com/GRAAL-Research/poutyne/blob/master/examples/Semantic_segmentation.ipynb>`_
     - Run in `Google Colab <https://colab.research.google.com/github/GRAAL-Research/poutyne/blob/master/examples/Semantic_segmentation.ipynb>`_
 
+`Reference of the image. <https://www.jeremyjordan.me/semantic-segmentation/>`_
+
 Semantic segmentation refers to the process of linking each pixel in an image to a class label. We can think of semantic segmentation as image classification at a pixel level. The image below clarifies the definition of semantic segmentation.
 
 .. image:: img/semantic_segmentation.png
