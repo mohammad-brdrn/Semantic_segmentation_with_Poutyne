@@ -1,7 +1,5 @@
-
 .. role:: hidden
     :class: hidden-section
-
 
 .. _intro:
 
@@ -16,6 +14,8 @@ Semantic segmentation using Poutyne
 Semantic segmentation refers to the process of linking each pixel in an image to a class label. We can think of semantic segmentation as image classification at a pixel level. The image below clarifies the definition of semantic segmentation.
 
 .. image:: img/semantic_segmentation.png
+
+Reference of the image. [`Image1 <https://www.jeremyjordan.me/semantic-segmentation/>`_]
 
 In this example, we are going to use and train a convolutional Unet, in order to design a network for semantic segmentation. In other words, we formulate the task of semantic segmentation as an image translation problem. We download and use the VOCSegmentation 2007 dataset for this purpose.
 
