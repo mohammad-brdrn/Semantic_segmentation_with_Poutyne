@@ -11,7 +11,7 @@ Semantic segmentation using Poutyne
 
 Semantic segmentation refers to the process of linking each pixel in an image to a class label. We can think of semantic segmentation as image classification at a pixel level. The image below clarifies the definition of semantic segmentation.
 
-.. image:: /_static/img/semantic_segmentation/semantic_segmentation.png
+.. image:: /img/semantic_segmentation.png
 
 `Source <https://www.jeremyjordan.me/semantic-segmentation/>`_
 
@@ -101,7 +101,7 @@ Let's see some of the input samples inside the training dataset.
     plt.axis('off')
     plt.show()
     
-.. image:: /_static/img/semantic_segmentation/voc_segment_batch.png 
+.. image:: /img/voc_segment_batch.png 
 
 The ground-truth (segmentation map) for the image grid shown above is as below.
 
@@ -116,7 +116,7 @@ The ground-truth (segmentation map) for the image grid shown above is as below.
     plt.axis('off')
     plt.show()
     
-.. image:: /_static/img/semantic_segmentation/voc_segment_batch_gt.png 
+.. image:: /img/voc_segment_batch_gt.png 
 
 It is worth mentioning that, as we have approached the segmentation task as an image translation problem, we take advantage of MSELoss for the training. Moreover, we believe that using the U-Net with a pre-trained encoder would help the network converge sooner and better since a pre-trained CNN (trained on the ImageNet dataset) is already familiar with some of the object classes and also some low-level image features (such as edge, texture, etc).
 
@@ -193,7 +193,7 @@ We show some of the segmentation results in the image below (grayscale):
     plt.imshow((out))
     plt.show()
 
-.. image:: /_static/img/semantic_segmentation/segment_out.png 
+.. image:: /img/segment_out.png 
 
 Here, we show one of the input samples along with its segmentation ground truth and the produced output.
 
@@ -219,7 +219,7 @@ Here, we show one of the input samples along with its segmentation ground truth 
     ax3.set_title('output')
     plt.show()
 
-.. image:: /_static/img/semantic_segmentation/segment_compare.png 
+.. image:: /img/segment_compare.png 
 
 Last note
 =========
