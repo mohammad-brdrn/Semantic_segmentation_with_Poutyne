@@ -215,7 +215,7 @@ Here, we show one of the input samples along with its segmentation ground truth 
     ax3.set_title('output')
     plt.show()
 
-.. image:: /_static/img/segment_compare.png 
+.. image:: /img/segment_compare.png 
 
 Last note
 =========
